@@ -87,7 +87,7 @@ body {
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
-  line-height: 88px; /* 137.5% */
+  line-height: 88px; 
   letter-spacing: 7.04px;
   width: 642px;
   padding-top: 100px;
@@ -100,7 +100,7 @@ body {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 15px; /* 166.667% */
+  line-height: 15px;
   width: 500px;
   padding-left: 100px;
 }
@@ -108,7 +108,7 @@ body {
   color: #fff;
   text-align: center;
   font-family: Inter;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 50px;
   background: none;
@@ -119,9 +119,8 @@ body {
 }
 .btn:hover {
   cursor: pointer;
-  color: rgb(7, 212, 18);
+  color: rgb(7, 212, 18); */
 }
-/* new party */
 .place-container {
     display: block;
     margin: auto;
@@ -176,14 +175,12 @@ body {
     margin: auto;
 
 }
-
 .place-container-btn:hover {
     background: transparent;
     border: 3px solid rgb(51, 255, 0);
     cursor: pointer;
     color: rgb(51, 255, 0);
 }
-/* new party end */
 .portfolio {
   margin-top: 50px;
   margin-left: 140px;
@@ -252,7 +249,7 @@ body {
   font-weight: 400;
   line-height: 22px; /* 160% */
   width: 896px;
-  padding-left: 250px;
+  padding-left: 180px;
   margin-top: -20px;
 }
 .email {
@@ -269,7 +266,7 @@ body {
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   width: 150px;
-  height: 42px;
+  height: 46px;
   flex-shrink: 0;
   border: none;
   margin-left: -20px;
@@ -279,70 +276,91 @@ body {
 .Subscribe-btn {
   cursor: pointer;
 }
+.email:hover{
+    cursor: pointer;
+}
 footer {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-  background: #070211;
-  width: 100%
-  flex-shrink: 0;
-}
-.footer-address {
-  color: #fff;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 40px; /* 166.667% */
-  padding-top: 100px;
-  width: 55%;
-}
-.footer-contact, .footer-website{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 40px; /* 166.667% */
-}
-.footer-contact{
-    padding-top: 100px;
-}
-.footer-website{
-    margin-top: -20px;
-}
-.icon{
     background: #070211;
 }
-.social-media{
-    align-items: center;
-    text-align: center;
-    padding-left: 150px;
-    padding: 25px 0;
-}
-.footer-copyright{
+
+.footer {
+    width: 80%;
+    justify-content: space-between;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 140px;
-    background:#070211;
+    margin: auto;
 }
-.copyright{
+
+.footer-text, .footer-contact-website{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 40px;
+    margin-top: 120px;
+    margin-bottom: 50px;
 }
-.Unsubscribe{
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    width: 99.5%;
+    height: 1 px;
+    margin: 20px 0;
+}
+
+.social-icon {
+    width: 80%;
+    display: block;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#social-images {
+    cursor: pointer;
+    padding-right: 24px;
+    margin: 48px auto;
+    transition: 0.5s all ease-in-out;
+}
+#social-images:hover{
+    transform: scale(0.5);
+}
+
+.footer-rights {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
-hr{
+.unsubscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
     background: #070211;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.unsubscribe:hover{
+    color:  #FFF;
+    transform: scale(1.5);
+}
+.footer-text-recive-last{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.fa-solid{
+    color: #FFF;
+    margin-right: 10px;
 }
