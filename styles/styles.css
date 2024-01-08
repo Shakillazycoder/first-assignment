@@ -44,6 +44,7 @@ body {
 .offer {
   margin-top: 200px;
   text-align: center;
+  margin-bottom: 150px;
 }
 .offer-title {
   color: #f00;
@@ -118,11 +119,11 @@ body {
 .btn:hover {
   cursor: pointer;
   color: rgb(7, 212, 18); */
-}
+} */
 .place-container {
     display: block;
-    margin: auto;
-    padding-top: 120px;
+    margin: 50px auto;
+    padding-top: 150px;
 }
 
 .place-container-section {
@@ -216,9 +217,7 @@ body {
   margin-left: 0 100px;
 }
 .newsletter {
-  margin-top: 50px;
-  margin-left: 140px;
-  margin-right: 140px;
+  margin: 50px 140px;
   text-align: center;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
