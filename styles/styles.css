@@ -4,8 +4,6 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
 }
-
-/* Header Banner */
 .header {
   height: 75vh;
   margin: 0 auto;
@@ -39,7 +37,7 @@ body {
   text-align: center;
   font-size: 72px;
   font-weight: 900;
-  line-height: 95px; /* 131.944% */
+  line-height: 95px;
   padding: 0 100px;
   font-family: Merriweather;
 }
@@ -247,7 +245,7 @@ body {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22px; /* 160% */
+  line-height: 22px;
   width: 896px;
   padding-left: 180px;
   margin-top: -20px;
